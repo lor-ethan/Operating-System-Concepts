@@ -1,0 +1,13 @@
+# executable, input file, reference output, points
+./cmdline                     ,,given-tests/cmdline-01-output.txt, 1
+./cmdline -n 20               ,,given-tests/cmdline-02-output.txt, 1
+./cmdline -d -n 16            ,,given-tests/cmdline-03-output.txt, 1
+./cmdline -n 234 -d           ,,given-tests/cmdline-04-output.txt, 1
+./cmdline -n 34 -stages       ,,given-tests/cmdline-05-output.txt, 1
+./cmdline -n 42 -stage FOO    ,,given-tests/cmdline-06-output.txt, 1
+./cmdline -n 142 -d -stage FOO,,given-tests/cmdline-07-output.txt, 1
+./cmdline -d -stage BIP -n 101,,given-tests/cmdline-08-output.txt, 1
+./cmdline -n                  ,,given-tests/cmdline-09-output.txt, 1
+./cmdline -n -20              ,,given-tests/cmdline-10-output.txt, 1
+./cmdline -n 0                ,,given-tests/cmdline-11-output.txt, 1
+./cmdline -n 24 -stage        ,,given-tests/cmdline-12-output.txt, 1

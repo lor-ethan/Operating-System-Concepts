@@ -1,0 +1,42 @@
+./scheduler -s 1       given-tests/level1.txt,,given-tests/level1-exp-s-1.txt,1
+./scheduler -s 2       given-tests/level1.txt,,given-tests/level1-exp-s-2.txt,1
+./scheduler -s 3       given-tests/level1.txt,,given-tests/level1-exp-s-3.txt,1
+./scheduler -s 4 -q 10 given-tests/level1.txt,,given-tests/level1-exp-s-4-q-10.txt,1
+./scheduler -s 4 -q 2  given-tests/level1.txt,,given-tests/level1-exp-s-4-q-2.txt,1
+./scheduler -s 4 -q 5  given-tests/level1.txt,,given-tests/level1-exp-s-4-q-5.txt,1
+./scheduler -s 1       given-tests/level2.txt,,given-tests/level2-exp-s-1.txt,1
+./scheduler -s 2       given-tests/level2.txt,,given-tests/level2-exp-s-2.txt,1
+./scheduler -s 3       given-tests/level2.txt,,given-tests/level2-exp-s-3.txt,1
+./scheduler -s 4 -q 10 given-tests/level2.txt,,given-tests/level2-exp-s-4-q-10.txt,1
+./scheduler -s 4 -q 2  given-tests/level2.txt,,given-tests/level2-exp-s-4-q-2.txt,1
+./scheduler -s 4 -q 5  given-tests/level2.txt,,given-tests/level2-exp-s-4-q-5.txt,1
+./scheduler -s 1       given-tests/level3.txt,,given-tests/level3-exp-s-1.txt,1
+./scheduler -s 2       given-tests/level3.txt,,given-tests/level3-exp-s-2.txt,1
+./scheduler -s 3       given-tests/level3.txt,,given-tests/level3-exp-s-3.txt,1
+./scheduler -s 4 -q 10 given-tests/level3.txt,,given-tests/level3-exp-s-4-q-10.txt,1
+./scheduler -s 4 -q 2  given-tests/level3.txt,,given-tests/level3-exp-s-4-q-2.txt,1
+./scheduler -s 4 -q 5  given-tests/level3.txt,,given-tests/level3-exp-s-4-q-5.txt,1
+./scheduler -s 1       given-tests/level4.txt,,given-tests/level4-exp-s-1.txt,1
+./scheduler -s 2       given-tests/level4.txt,,given-tests/level4-exp-s-2.txt,1
+./scheduler -s 3       given-tests/level4.txt,,given-tests/level4-exp-s-3.txt,1
+./scheduler -s 4 -q 10 given-tests/level4.txt,,given-tests/level4-exp-s-4-q-10.txt,1
+./scheduler -s 4 -q 2  given-tests/level4.txt,,given-tests/level4-exp-s-4-q-2.txt,1
+./scheduler -s 4 -q 5  given-tests/level4.txt,,given-tests/level4-exp-s-4-q-5.txt,1
+./scheduler -s 1       given-tests/level5.txt,,given-tests/level5-exp-s-1.txt,1
+./scheduler -s 2       given-tests/level5.txt,,given-tests/level5-exp-s-2.txt,1
+./scheduler -s 3       given-tests/level5.txt,,given-tests/level5-exp-s-3.txt,1
+./scheduler -s 4 -q 10 given-tests/level5.txt,,given-tests/level5-exp-s-4-q-10.txt,1
+./scheduler -s 4 -q 2  given-tests/level5.txt,,given-tests/level5-exp-s-4-q-2.txt,1
+./scheduler -s 4 -q 5  given-tests/level5.txt,,given-tests/level5-exp-s-4-q-5.txt,1
+./scheduler -s 1       given-tests/level6.txt,,given-tests/level6-exp-s-1.txt,1
+./scheduler -s 2       given-tests/level6.txt,,given-tests/level6-exp-s-2.txt,1
+./scheduler -s 3       given-tests/level6.txt,,given-tests/level6-exp-s-3.txt,1
+./scheduler -s 4 -q 10 given-tests/level6.txt,,given-tests/level6-exp-s-4-q-10.txt,1
+./scheduler -s 4 -q 2  given-tests/level6.txt,,given-tests/level6-exp-s-4-q-2.txt,1
+./scheduler -s 4 -q 5  given-tests/level6.txt,,given-tests/level6-exp-s-4-q-5.txt,1
+./scheduler -s 1       given-tests/level7.txt,,given-tests/level7-exp-s-1.txt,1
+./scheduler -s 2       given-tests/level7.txt,,given-tests/level7-exp-s-2.txt,1
+./scheduler -s 3       given-tests/level7.txt,,given-tests/level7-exp-s-3.txt,1
+./scheduler -s 4 -q 10 given-tests/level7.txt,,given-tests/level7-exp-s-4-q-10.txt,1
+./scheduler -s 4 -q 2  given-tests/level7.txt,,given-tests/level7-exp-s-4-q-2.txt,1
+./scheduler -s 4 -q 5  given-tests/level7.txt,,given-tests/level7-exp-s-4-q-5.txt,1

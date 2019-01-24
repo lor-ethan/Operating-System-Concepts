@@ -1,0 +1,1 @@
+./hello < notreal.txt > helloout.txt ; ./hello < helloin.txt > helloout.txt
